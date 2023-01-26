@@ -1,0 +1,92 @@
+#mini {
+    width: 5%;
+    margin: 10px;
+}
+
+#adv {
+    margin: 30px;
+}
+
+.link {
+    position: fixed;
+    right: 20px;
+    top: 20px;
+}
+
+.link a {
+    padding: 5px
+}
+
+.advanced label{
+    display: inline-block;
+    width: 200px;
+    margin-bottom: 20px;
+}
+
+.advanced input {
+    width: 500px;
+    padding: 5px;
+}
+
+.advanced button {
+    position: relative;
+    top: 20px;
+    left: 45%;
+    background-color: #4982ff;
+    color: white;
+}
+
+input[type="text"]:not(.advanced input) {
+    position: relative;
+    display: block;
+    left: 25%;
+    top: 85px;
+    margin: 20px;
+    padding: 15px;
+    border: 2px solid #efefef;
+    width: 45%;
+    border-radius: 25px;
+}
+
+input[type="submit"] {
+position: relative;
+background-color: #fafafa;
+border: 1px solid #efefef;
+top: 100px;
+left: 40%;
+margin-left: 5px;
+padding: 10px;
+border-radius: 5px;
+}
+
+figure {
+    position: relative;
+    top: 70px;
+    left: 38%;
+}
+
+figure figcaption {
+    position: relative;
+    left: 17%;
+    bottom: 25px;
+    font-size: 20px;
+    color: dodgerblue
+}
+
+button {
+    position: relative;
+    background-color: #fafafa;
+    border: 1px solid #efefef;
+    top: 100px;
+    left: 45%;
+    width: 10%;
+    margin-left: 5px;
+    padding: 10px;
+    border-radius: 5px;
+    }
+
+h5 {
+    color: tomato;
+    margin: 30px;
+    font-size: 20px;
+}
